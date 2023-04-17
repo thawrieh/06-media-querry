@@ -1,0 +1,84 @@
+/*MOBILE FIRST*/
+html{
+    font-size: 62.8%;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    background-color: lightsalmon;
+    color: darkmagenta;
+
+}
+h1, p
+h1
+{
+font-size: 3.2rem;
+
+}
+p
+{
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+.mobile
+{
+background-color: darkmagenta;
+color: lightsalmon;
+display: inline-block;
+margin: -1rem 0 0 -1rem;
+
+}
+.tablet
+{
+    
+    background-color: blanchedalmond;
+color: darkolivegreen;
+display: inline-block;
+margin: -1rem 0 0 -1rem;
+display: none;
+    
+}
+.desktop
+{
+    
+    background-color: darkgoldenrod;
+color: lemonchiffon;
+display: inline-block;
+margin: -1rem 0 0 -1rem;
+display: none;
+}
+
+/* Tablet-näkymä*/
+@media only screen and (min-width: 426px) {
+    body {
+        background-color: darkolivegreen;
+        color: blanchedalmond;
+    }
+    .mobile{
+        display: none;
+
+    }
+    .tablet{
+        display: inline-block;
+
+    }
+    .desktop{
+    }
+  }
+/* Desktop-näkymä*/
+@media only screen and (min-width: 796px) {
+    body {
+      background-color: lemonchiffon;
+      color: darkgoldenrod;
+    }
+    .mobile{
+ 
+    }
+    .tablet{
+display: none;
+    }
+    .desktop{
+display: inline-block;
+    }
+  }
